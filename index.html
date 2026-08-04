@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home &middot; Operating System Archive</title>
+<meta name="description" content="A Windows Server 2008 R2 systems administration lab: domain services, DHCP, file services, RAID, remote desktop, web server, and group policy.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">
+<div class="topbar-inner">
+<a class="brand" href="index.html">
+<span>
+<span class="brand-text">Operating System Archive</span>
+<span class="brand-sub">Windows Server Administration Lab</span>
+</span>
+</a>
+<nav>
+<ul>
+<li class="active"><a href="index.html">Home</a></li>
+<li>
+<a href="case-study/index.html">Case Studies <span class="caret">&#9662;</span></a>
+<div class="dropdown">
+<a href="case-study/index.html">All Case Studies</a>
+<a href="case-study/domainController.html">1. Domain Controller</a>
+<a href="case-study/domainUsers.html">2. Domain Users</a>
+<a href="case-study/dhcpServer.html">3. DHCP Server</a>
+<a href="case-study/fileServices.html">4. File Services</a>
+<a href="case-study/raid.html">5. RAID Configuration</a>
+<a href="case-study/remoteDesktop.html">6. Remote Desktop</a>
+<a href="case-study/webServer.html">7. Web Server</a>
+<a href="case-study/groupPolicy.html">8. Group Policy</a>
+</div>
+</li>
+<li>
+<a href="os-downloads/index.html">Downloads <span class="caret">&#9662;</span></a>
+<div class="dropdown">
+<a href="os-downloads/index.html">All Downloads</a>
+<a href="os-downloads/winXP.html">Windows XP</a>
+<a href="os-downloads/winVista.html">Windows Vista</a>
+<a href="os-downloads/win7.html">Windows 7</a>
+<a href="os-downloads/win8.html">Windows 8</a>
+<a href="os-downloads/win2k3.html">Windows Server 2003</a>
+<a href="os-downloads/win2k8R2.html">Windows Server 2008 R2</a>
+</div>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="hero">
+<div class="hero-inner">
+<div class="eyebrow">Systems Administration Lab</div>
+<h1>Operating System Archive</h1>
+<p class="lede">A hands-on documentation project covering Windows Server 2008 R2 infrastructure, including domain services, network roles, storage, and remote administration, built and recorded in Oracle VirtualBox.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="case-study/index.html">View Case Studies</a>
+<a class="btn btn-ghost" href="os-downloads/index.html">OS Downloads</a>
+</div>
+</div>
+</div>
+<div class="container">
+
+<div class="section-head">
+<h2>Foundations</h2>
+<span class="section-note">Concepts covered</span>
+</div>
+
+<div class="about-grid">
+<div class="panel">
+<h3>Operating Systems &amp; Virtual Machines</h3>
+<p>An operating system is the core software that manages hardware and mediates every interaction between a user and a machine. This archive documents that layer directly: each case study is performed inside a virtual machine, a software-defined computer running its own OS, applications, and resources on top of a host system.</p>
+<ul class="about-list">
+<li>Managing hardware resources: CPU, memory, storage</li>
+<li>Running and controlling applications and processes</li>
+<li>Providing security through accounts, permissions, and policy</li>
+<li>Offering a consistent interface between user and hardware</li>
+</ul>
+</div>
+<div class="panel">
+<h3>Why VirtualBox</h3>
+<p>Oracle VirtualBox provides an isolated environment for standing up multiple operating systems on a single physical machine, which is what makes this kind of lab work possible without dedicated hardware.</p>
+<ul class="about-list">
+<li>Run and compare multiple operating systems safely</li>
+<li>Test server roles and configurations without production risk</li>
+<li>Practice real administration workflows end to end</li>
+</ul>
+<div class="stat-row">
+<div class="stat"><span class="num">8</span><span class="label">Case studies</span></div>
+<div class="stat"><span class="num">6</span><span class="label">OS installs</span></div>
+</div>
+</div>
+</div>
+
+<div class="section-head" style="margin-top:12px;">
+<h2>Featured Case Studies</h2>
+<a class="view-all" href="case-study/index.html">View all &rarr;</a>
+</div>
+<div class="grid cols-3">
+<a class="win-card" href="case-study/domainController.html">
+<div class="card-thumb">
+<img src="https://i.ytimg.com/vi/bcCOANs4ocI/hqdefault.jpg" alt="" loading="lazy">
+<span class="thumb-badge">Case Study 1</span>
+
+<span class="play-badge"><span class="play-icon"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 4L16 10L6 16V4Z" fill="#1e293b"/>
+</svg></span></span>
+</div>
+<div class="card-body">
+<h3>Domain Controller</h3>
+<p>Promoting a Windows Server 2008 R2 instance to a domain controller to centralize authentication and management.</p>
+<div class="tags"><span class="tag">Active Directory Domain Services</span><span class="tag">Windows Server 2008 R2</span></div>
+</div>
+</a>
+<a class="win-card" href="case-study/domainUsers.html">
+<div class="card-thumb">
+<img src="https://i.ytimg.com/vi/IS9bFHPxuMY/hqdefault.jpg" alt="" loading="lazy">
+<span class="thumb-badge">Case Study 2</span>
+<span class="thumb-count">2 videos</span>
+<span class="play-badge"><span class="play-icon"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 4L16 10L6 16V4Z" fill="#1e293b"/>
+</svg></span></span>
+</div>
+<div class="card-body">
+<h3>Domain Users</h3>
+<p>Creating and managing domain user accounts through Active Directory Users and Computers.</p>
+<div class="tags"><span class="tag">AD Users & Computers</span><span class="tag">User Provisioning</span></div>
+</div>
+</a>
+<a class="win-card" href="case-study/dhcpServer.html">
+<div class="card-thumb">
+<img src="https://i.ytimg.com/vi/riKbfcch07I/hqdefault.jpg" alt="" loading="lazy">
+<span class="thumb-badge">Case Study 3</span>
+
+<span class="play-badge"><span class="play-icon"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 4L16 10L6 16V4Z" fill="#1e293b"/>
+</svg></span></span>
+</div>
+<div class="card-body">
+<h3>DHCP Server</h3>
+<p>Deploying the DHCP role to automate IP address assignment for domain-joined clients.</p>
+<div class="tags"><span class="tag">DHCP</span><span class="tag">Network Services</span></div>
+</div>
+</a>
+<a class="win-card" href="case-study/fileServices.html">
+<div class="card-thumb">
+<img src="https://i.ytimg.com/vi/WutySKEP4zU/hqdefault.jpg" alt="" loading="lazy">
+<span class="thumb-badge">Case Study 4</span>
+
+<span class="play-badge"><span class="play-icon"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 4L16 10L6 16V4Z" fill="#1e293b"/>
+</svg></span></span>
+</div>
+<div class="card-body">
+<h3>File Services</h3>
+<p>Configuring the File Server role for centralized, permission-controlled shared storage.</p>
+<div class="tags"><span class="tag">File Server Role</span><span class="tag">NTFS Permissions</span></div>
+</div>
+</a>
+</div>
+
+</div>
+
+<div class="container tight" style="padding-top:0;">
+<div class="section-head">
+<h2>Introduction</h2>
+<span class="section-note">Platform overview</span>
+</div>
+<div class="video-panel">
+<div class="video-label">Introduction video</div>
+<div class="video">
+<iframe src="https://www.youtube.com/embed/gJaXgxQ1NQg" title="Introduction video" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<footer>
+<div class="footer-inner">
+<span>&copy; 2026 Operating System Archive. Lab documentation for academic and portfolio purposes.</span>
+<span class="fnote">Built and recorded in Oracle VirtualBox, Windows Server 2008 R2</span>
+</div>
+</footer>
+<script src="nav.js" defer></script>
+</body>
+</html>
